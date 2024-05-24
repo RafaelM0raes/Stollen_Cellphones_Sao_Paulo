@@ -1,39 +1,3 @@
-**Identification and Location**
-
-* *ID_DELEGACIA*: Unique identifier for the police station (Delegacia) where the report was filed
-* *NOME_DEPARTAMENTO*, *NOME_SECCIONAL*, *NOME_DELEGACIA*, *NOME_MUNICIPIO*: Department, sectional, police station, and municipality names where the report was filed
-* *CIDADE*, *BAIRRO*, *CEP*, *LOGRADOURO_VERSAO*, *LOGRADOURO*, *NUMERO_LOGRADOURO*: City, neighborhood, zip code, and address details where the incident occurred
-* *LATITUDE* and *LONGITUDE*: Geographic coordinates of the incident location
-
-**Incident Details**
-
-* *ANO_BO*, *NUM_BO*, *VERSAO*: Year, number, and version of the police report (Boletim de Ocorrência)
-* *DATA_OCORRENCIA_BO* and *HORA_OCORRENCIA*: Date and time of the incident
-* *DESCRICAO_APRESENTACAO*: Description of the incident
-* *DATAHORA_REGISTRO_BO*, *DATA_COMUNICACAO_BO*, *DATAHORA_IMPRESSAO_BO*: Timestamps for registration, communication, and printing of the police report
-
-**Circumstances and Classification**
-
-* *DESCR_PERIODO*: Description of the period when the incident occurred
-* *AUTORIA_BO*: Authorship of the report
-* *FLAG_INTOLERANCIA* and *TIPO_INTOLERANCIA*: Flags and types of intolerance related to the incident
-* *FLAG_FLAGRANTE*: Flag indicating if the incident was caught in the act (flagrante)
-* *FLAG_STATUS*: Status of the incident
-* *DESC_LEI*: Description of the law related to the incident
-* *FLAG_ATO_INFRACIONAL*: Flag indicating if the incident is an infractional act
-
-**Object Details**
-
-* *CONT_OBJETO*: Content of the stolen object (cellphone)
-* *DESCR_MODO_OBJETO*, *DESCR_TIPO_OBJETO*, *DESCR_SUBTIPO_OBJETO*: Description of the mode, type, and subtype of the stolen object
-* *DESCR_UNIDADE*, *QUANTIDADE_OBJETO*, *MARCA_OBJETO*: Unit, quantity, and brand of the stolen object
-* *FLAG_BLOQUEIO* and *FLAG_DESBLOQUEIO*: Flags indicating if the object was blocked or unblocked
-
-**Miscellaneous**
-
-* *MES* and *ANO*: Month and year of the incident
-Based on the provided dataset, here's a description of each column:
-
 1. **ID_DELEGACIA**: A unique identifier for the police station (Delegacia) where the incident was reported.
 
 2. **NOME_DEPARTAMENTO**: The name of the department (Departamento) where the incident occurred.
@@ -135,5 +99,3 @@ Based on the provided dataset, here's a description of each column:
 50. **MES**: The month when the incident occurred.
 
 51. **ANO**: The year when the incident occurred.
-
-This dataset appears to be related to stolen cellphones in the State of São Paulo, Brazil, and contains information about the incidents, locations, and objects involved.
